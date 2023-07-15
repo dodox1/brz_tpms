@@ -93,8 +93,8 @@ unsigned long IncomingAddress;
 //this table (and its order define known TPMS IDs so that they their values are always displayed in the same order
 const unsigned long PROGMEM IDLookup[][2]
 {
-  {0xf15f04d4,'W'}, {0xf15f04d0,'W'}, {0xf14cba59,'W'}, {0xf14f1551,'W'},  //Winter
-  {0x40a9be5,'S'}, {0x40a9a6b,'S'}, {0x40a9068,'S'}, {0x40a98a9,'S'},  //Summer
+  {0xf15f0000,'W'}, {0xf15f1111,'W'}, {0xf14c2222,'W'}, {0xf14f3333,'W'},  //Winter
+  {0x40a0000,'S'}, {0x40a1111,'S'}, {0x40a2222,'S'}, {0x40a3333,'S'},  //Summer
 };
 
 
